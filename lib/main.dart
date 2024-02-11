@@ -1,3 +1,4 @@
+import 'package:alarm_app/theme.dart';
 import 'package:alarm_app/view/home_page.dart';
 import 'package:flutter/material.dart';
 
@@ -15,8 +16,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Alarm_app',
       
-      theme: ThemeData.light(),
-      darkTheme: ThemeData.dark(),
+      theme: AppTheme.lightTheme,
+      darkTheme: AppTheme.darkTheme,
       home: HomePage(),
     );
   }
